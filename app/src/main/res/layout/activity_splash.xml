@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#131212"
+    tools:context=".Splash">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="132dp"
+        android:layout_height="122dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/topview" />
+        <TextView
+
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/logo"
+            android:text="Blue Chats"
+            android:textStyle="italic"
+
+            android:textColor="#03A9F4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</RelativeLayout>
